@@ -62,7 +62,7 @@ echo -e "    dotnet:      v$NET_VERSION"
 echo -e "    swashbuckle: v$SWASHBUCKLE_VERSION"
 echo
 
-TAG=v"$SWASHBUCKLE_VERSION"-net"$NET_VERSION"-node"$NODE_VERSION"
+TAG="$SWASHBUCKLE_VERSION"-net"$NET_VERSION"-node"$NODE_VERSION"
 IMAGE="$REG":"$TAG"
 
 docker build -t "$IMAGE" \
