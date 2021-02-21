@@ -9,8 +9,6 @@ NET_VERSION=3.1
 NODE_VERSION=14.x
 SWASHBUCKLE_VERSION=5.6.3
 
-echo $DIR
-
 usage()
 {
     echo "Usage: build-docker.sh [options]"
@@ -61,7 +59,7 @@ echo -e "    dotnet:      v$NET_VERSION"
 echo -e "    swashbuckle: v$SWASHBUCKLE_VERSION"
 echo
 
-TAG=v"$SWASHBUCKLE_VERSION"-net"$NET_VERSION"
+TAG=v"$SWASHBUCKLE_VERSION"-net"$NET_VERSION"-node"$NODE_VERSION"
 IMAGE="$REG":"$TAG"
 
 docker build -t "$IMAGE" \
