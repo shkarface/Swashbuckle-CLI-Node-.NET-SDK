@@ -13,7 +13,6 @@ usage()
     echo "Options:"
     echo "    -r --registry     Repository (Default: shkarface/swashbuckle-cli-node-dotnet)"
     echo "    --push            Push the docker image after successful build"
-    exit -1
 }
 
 while test $# -gt 0
@@ -26,8 +25,12 @@ do
                         REG=$1
                         ;;
         -h | --help )   usage
-                        exit
+                        exit 0
                         ;;
+    * )                 echo "Invalid option $1"
+                        echo
+                        usage
+                        exit -1
     esac
     shift
 done

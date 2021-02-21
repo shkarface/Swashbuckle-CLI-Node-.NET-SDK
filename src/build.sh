@@ -21,7 +21,6 @@ usage()
     echo "    --node            NodeJS version (Default: 14.x)"
     echo "    --push            Push the docker image after successful build"
     echo "    --swashbuckle     Swashbuckle version (Default: 5.6.3)"
-    exit -1
 }
 
 while test $# -gt 0
@@ -43,8 +42,12 @@ do
             SWASHBUCKLE_VERSION=$1
                         ;;
         -h | --help )   usage
-                        exit
+                        exit 0
                         ;;
+    * )                 echo "Invalid option $1"
+                        echo
+                        usage
+                        exit -1
     esac
     shift
 done
