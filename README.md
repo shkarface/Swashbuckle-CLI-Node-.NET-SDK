@@ -2,6 +2,8 @@
 
 A set of bash scripts to build variations of .NET SDK, Node and Swashbuckle CLI docker images
 
+[![Docker Image CI](https://github.com/Shkarface/Swashbuckle-CLI-Node-.NET-SDK/actions/workflows/build-all-docker-images-main.yml/badge.svg)](https://github.com/Shkarface/Swashbuckle-CLI-Node-.NET-SDK/actions/workflows/build-all-docker-images-main.yml)
+
 ---
 
 ### Using the images
