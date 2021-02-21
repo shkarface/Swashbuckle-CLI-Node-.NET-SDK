@@ -15,7 +15,7 @@ FROM shkarface/shkarface/swashbuckle-cli-node-dotnet:SWASHBUCKLE-NET-NODE
 This will use the image with:
 
     Node 14.x
-    .NET SDK 5.0
+    .NET SDK 3.1
     Swashbuckle v6.0.7
 
 ```Dockerfile
