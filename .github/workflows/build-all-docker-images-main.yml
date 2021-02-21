@@ -28,4 +28,4 @@ jobs:
 
     - name: Build all images
       run:
-        bash src/build-all.sh --push
+        bash src/build-all.sh -q --pull --push
