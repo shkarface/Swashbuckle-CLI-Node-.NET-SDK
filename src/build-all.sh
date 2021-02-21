@@ -54,6 +54,8 @@ done
 
 "$DIR"/build.sh -r "$REG" --net 3.1 --node 14.x --swashbuckle 5.6.3 "$PUSH" "$PULL" "$QUIET"
 
+"$DIR"/build.sh -r "$REG" --net 3.1-focal --node 14.x --swashbuckle 5.6.3 "$PUSH" "$PULL" "$QUIET"
+
 "$DIR"/build.sh -r "$REG" --net 3.1 --node 14.x --swashbuckle 6.0.7 "$PUSH" "$PULL" "$QUIET"
 
 "$DIR"/build.sh -r "$REG" --net 5.0 --node 14.x --swashbuckle 6.0.7 "$PUSH" "$PULL" "$QUIET"
