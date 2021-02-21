@@ -35,7 +35,7 @@ done
 "$DIR"/build.sh -r "$REG" --net 3.1 --node 14.x --swashbuckle 5.6.3 "$PUSH"
 echo
 
-"$DIR"/build.sh -r "$REG" --net 3.1 --node 14.x --swashbuckle 6.0.2 "$PUSH"
+"$DIR"/build.sh -r "$REG" --net 3.1 --node 14.x --swashbuckle 6.0.7 "$PUSH"
 echo
 
-"$DIR"/build.sh -r "$REG" --net 5.0 --node 14.x --swashbuckle 6.0.2 "$PUSH"
+"$DIR"/build.sh -r "$REG" --net 5.0 --node 14.x --swashbuckle 6.0.7 "$PUSH"
