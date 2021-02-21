@@ -14,7 +14,7 @@ FROM shkarface/shkarface/swashbuckle-cli-node-dotnet:SWASHBUCKLE-NET-NODE
 
 This will use the image with:
 
-    `Node 14.x`
+    Node 14.x
     .NET SDK 5.0
     Swashbuckle v6.0.7
 
