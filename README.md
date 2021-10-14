@@ -11,7 +11,7 @@ A set of bash scripts to build variations of .NET SDK, Node and Swashbuckle CLI 
 You can use the prebuilt images as base images for your images, the tag follow this format:
 
 ```Dockerfile
-FROM shkarface/shkarface/swashbuckle-cli-node-dotnet:SWASHBUCKLE-NET-NODE
+FROM shkarface/swashbuckle-cli-node-dotnet:SWASHBUCKLE-NET-NODE
 ```
 
 This will use the image with:
@@ -21,7 +21,7 @@ This will use the image with:
     Swashbuckle v6.0.7
 
 ```Dockerfile
-FROM shkarface/shkarface/swashbuckle-cli-node-dotnet:6.0.7-net3.1-node14.x
+FROM shkarface/swashbuckle-cli-node-dotnet:6.0.7-net3.1-node14.x
 ```
 
 ---
